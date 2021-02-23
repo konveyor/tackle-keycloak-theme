@@ -1,0 +1,12 @@
+{
+  "name": "tackle-keycloak-theme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "^6.2.1"
+  }
+}
