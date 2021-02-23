@@ -1,0 +1,11 @@
+{
+  "name": "tackle-keycloak-theme",
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "@patternfly/patternfly": "^4.70.2",
+    "@patternfly/pfe-dropdown": "^1.1.0",
+    "@webcomponents/custom-elements": "^1.4.3",
+    "@webcomponents/webcomponentsjs": "^2.5.0"
+  }
+}
