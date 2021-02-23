@@ -2,9 +2,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.carlosthe19916</groupId>
+    <groupId>io.tackle</groupId>
     <artifactId>tackle-keycloak-theme</artifactId>
-    <version>0.4-SNAPSHOT</version>
+    <version>0.1-SNAPSHOT</version>
 
     <name>Tackle Keycloak Theme</name>
     <description>Keycloak theme artifacts</description>
@@ -17,7 +17,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
-    <url>https://github.com/carlosthe19916/controls-keycloak-theme/</url>
+    <url>https://github.com/konveyor/tackle-keycloak-theme/</url>
 
     <licenses>
         <license>
@@ -41,9 +41,9 @@
     </developers>
 
     <scm>
-        <url>https://github.com/carlosthe19916/controls-keycloak-theme/</url>
-        <connection>scm:git:git://github.com/carlosthe19916/controls-keycloak-theme.git</connection>
-        <developerConnection>scm:git:git@github.com:carlosthe19916/controls-keycloak-theme.git</developerConnection>
+        <url>https://github.com/konveyor/tackle-keycloak-theme/</url>
+        <connection>scm:git:git://github.com/konveyor/tackle-keycloak-theme.git</connection>
+        <developerConnection>scm:git:git@github.com:konveyor/tackle-keycloak-theme.git</developerConnection>
     </scm>
 
     <distributionManagement>
