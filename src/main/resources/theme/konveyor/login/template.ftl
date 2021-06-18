@@ -148,7 +148,7 @@
             </footer>
           </main>
 
-          <footer class="pf-c-login__footer">
+          <#--  <footer class="pf-c-login__footer">
             <p>This is placeholder text only. Use this area to place any information or introductory message about your application that may be relevant to users.</p>
             <ul class="pf-c-list pf-m-inline">
               <li>
@@ -161,7 +161,7 @@
                 <a href="#" target="_blank" rel="noopener noreferrer">Privacy policy</a>
               </li>
             </ul>
-          </footer>
+          </footer>  -->
         </div>
       </div>
 
