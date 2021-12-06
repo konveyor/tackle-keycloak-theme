@@ -1,0 +1,5 @@
+FROM k8s.gcr.io/busybox 
+
+ADD target/tackle-keycloak-theme-*.jar /
+
+ENTRYPOINT [ "sh", "-c", "cp /tackle-keycloak-theme-* /deployments" ]
