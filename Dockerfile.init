@@ -1,4 +1,4 @@
-FROM k8s.gcr.io/busybox 
+FROM registry.k8s.io/busybox 
 
 ADD target/tackle-keycloak-theme-*.jar /
 
