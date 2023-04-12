@@ -1,4 +1,4 @@
-FROM k8s.gcr.io/busybox 
+FROM registry.access.redhat.com/ubi9/ubi-minimal
 
 ADD target/tackle-keycloak-theme-*.jar /
 
