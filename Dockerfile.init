@@ -1,5 +1,9 @@
+FROM registry.access.redhat.com/ubi9/ubi-minimal as builder
+RUN microdnf -y install maven-openjdk11.noarch
+ADD . /tackle-keycloak-theme
+WORKDIR /tackle-keycloak-theme
+RUN mvn clean install
+
 FROM registry.access.redhat.com/ubi9/ubi-minimal
-
-ADD target/tackle-keycloak-theme-*.jar /
-
+COPY --from=builder /tackle-keycloak-theme/target/tackle-keycloak-theme-*.jar /
 ENTRYPOINT [ "sh", "-c", "cp /tackle-keycloak-theme-* /deployments" ]
