@@ -32,7 +32,7 @@ jobs:
       - name: Maven
         run: mvn package
       - name: Create image
-        uses: elgohr/Publish-Docker-Github-Action@3.02
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: konveyor/tackle-keycloak-theme
           dockerfile: Dockerfile
